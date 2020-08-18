@@ -17,6 +17,10 @@ objectives:
       - criteria:
           - "<=1200"
     weight: 1
+  - sli: "error_rate"
+    pass:
+      - criteria:
+          - "<=0.1"
 total_score:
   pass: "90%"
   warning: "40%"
