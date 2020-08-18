@@ -11,7 +11,7 @@ spec:
           description: Toogle feature flag EnableItemCache to ON
           value: 
             EnableItemCache: "on"
-    - problemType: Failure rate increase
+    - problemType: error_rate
       actionsOnOpen:
         - action: toggle-feature
           name: Toogle feature flag
